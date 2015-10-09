@@ -30,7 +30,7 @@ C: Create Your Code Folder!  This is where you can keep any code you're working 
 ```
 Important Things:
   1) Do NOT use your real name on GitHub for anything.  Why? Because I'd rather spend my Friday afternoons at Coding Club than in detention.
-  2) Keep your Code folders filled with code.  I like code.  Folders like code.  Make us happy.
+  2) Code Folders are for code.  I like code.  Folders like code.  Make us happy.
   3) No 'Five Nights at Freddys'.  That stuff freaks me out.  Oh, and no Comic Sans.  Just as bad.
   4) REMEMBER: The NSA is constantly monitoring anything you put on the internet.  Wouldn't it be a shame when you're running for President and 'that post' is the headline on CNN?
 ```
