@@ -12,6 +12,7 @@ if (where_you_arent_at == coding_club)
 }
 ```
 ```
+Get Started!
 A: First you'll need to make a GitHub account.  
       1) Click that green button that says "Sign Up" (top left).  
       2) Input a username that does not contain your name.  
@@ -26,6 +27,7 @@ C: Create Your Code Folder!  This is where you can keep any code you're working 
       2) In the text box next to "MS-Coding-Club/", type your username, then type "/" (box will change), then type "README.md"
       3) In the text area below type in some sample text.  You can edit it later.
       4) Click the 'Commit New File' button at the bottom.  Congrats!  You've made your code folder.
+D: Please read the 'Important Things' below.  They're important.
 ```
 ```
 Important Things:
@@ -33,4 +35,5 @@ Important Things:
   2) Code Folders are for code.  I like code.  Folders like code.  Make us happy.
   3) No 'Five Nights at Freddys'.  That stuff freaks me out.  Oh, and no Comic Sans.  Just as bad.
   4) REMEMBER: The NSA is constantly monitoring anything you put on the internet.  Wouldn't it be a shame when you're running for President and 'that post' is the headline on CNN?
+  5) Legal Note: All code in here is under no liscence, therefore there is no blanket liscence or copyright, meaning that, you could, in theory, put a copyright on your code, but that would violate Important Thing #1, so if there's anything so important to you that you want to copyright it, make a different account and post it there.
 ```
