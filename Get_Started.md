@@ -38,7 +38,7 @@ Important Things:
   5) Legal Note: All code in here is under no liscence, therefore there is no blanket liscence or copyright, meaning that, you could, in theory, put a copyright on your code, but that would violate Important Thing #1, so if there's anything so important to you that you want to copyright it, make a different account and post it there.
 ```
 ```
-Files
+Files:
 1) HTML Files end in '.html'.  filename.html
 2) CSS Files end in '.css'.  filename.css
 3) JavaScript Files end in '.js'.  filename.js
