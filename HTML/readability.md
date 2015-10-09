@@ -5,7 +5,7 @@ We don't want bloody eyes.
 
 In HTML, there are a few things to keep in mind.  
   
-***Indentation:***
+***Indentation***  
 BAD:
 ```HTML
 <!DOCTYPE html>
@@ -27,13 +27,13 @@ BAD:
 </html>
 ```
 
-***Proper Nesting***
+***Proper Nesting***  
 BAD:
 ```HTML
 <!DOCTYPE html><html><head><title>Example</title><link rel="stylesheet" type="text/css" href="example.css"><script src="http://subdomain.ExampleLongDomainName.com/folder/folder/folder/folder/example.js"></script></head><body><header><div class="example-1"><div class="example-2"><p contenteditable="contenteditable">Example</p></div></div></header></body></html>
 ```
 
-***Capitalization***
+***Capitalization***  
 BAD:
 ```HTML
 <!DOCTYPE HTML>
