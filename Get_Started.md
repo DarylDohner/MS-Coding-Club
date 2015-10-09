@@ -37,3 +37,11 @@ Important Things:
   4) REMEMBER: The NSA is constantly monitoring anything you put on the internet.  Wouldn't it be a shame when you're running for President and 'that post' is the headline on CNN?
   5) Legal Note: All code in here is under no liscence, therefore there is no blanket liscence or copyright, meaning that, you could, in theory, put a copyright on your code, but that would violate Important Thing #1, so if there's anything so important to you that you want to copyright it, make a different account and post it there.
 ```
+```Files
+1) HTML Files end in '.html'.  filename.html
+2) CSS Files end in '.css'.  filename.css
+3) JavaScript Files end in '.js'.  filename.js
+4) Markdown Files end in '.md'.  filename.md
+5) Text Files end in '.txt'.  filename.txt
+To create a file, enter a folder, click the plus, paste in your code, and commit your changes!
+```
