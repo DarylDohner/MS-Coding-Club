@@ -15,8 +15,8 @@ if (where_you_arent_at == coding_club)
 Get Started!
 A: First you'll need to make a GitHub account.  
       1) Click that green button that says "Sign Up" (top left).  
-      2) Input a username that does not contain your name.  
-      3) Input a secure password.  Not sure what secure means?  Check how long it would take me to crack your password at <a href="http://calc.opensecurityresearch.com/">http://calc.opensecurityresearch.com/</a>.  Use 'PHPS' as the Keys Per Second.  
+      2) Input a username that does not contain your real name.  Never put your name on the internet except for professional things.  <<-- Good Advice.  Remember it.
+      3) Input a secure password.  Not sure what secure means?  Check how long it would take me to crack your password at <a href="http://calc.opensecurityresearch.com/">This Site/</a>.  Use 'PHPS' as the Keys Per Second and 'mixalpha-numeric-all-space' as charset.  
       4) Input either your school or personal email address.  GitHub only sent me an email once, so no need to be worried about spam.  
       5) Click the "Create Account" button.
       6) You will be taken to a choice of 'plans'.  Make sure the free one is selected.
