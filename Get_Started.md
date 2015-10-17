@@ -42,7 +42,12 @@ Files:
 1) HTML Files end in '.html'.  filename.html
 2) CSS Files end in '.css'.  filename.css
 3) JavaScript Files end in '.js'.  filename.js
-4) Markdown Files end in '.md'.  filename.md
-5) Text Files end in '.txt'.  filename.txt
+4) PHP Files end in '.php'.  filename.php
+5) SQL Files end in '.sql'.  filename.sql
+6) C++ Source Files end in '.cc', '.cpp', or '.cxx'.  filename.cc filename.cpp filename.cxx
+7) C++ Header Files end in '.h', '.hpp', or '.hxx'.  filename.h filename.hpp filename.hxx
+8) XML Files end in '.xml'.  filename.xml
+9) Markdown Files end in '.md'.  filename.md
+10) Text Files end in '.txt'.  filename.txt
 To create a file, enter a folder, click the plus, paste in your code, and commit your changes!
 ```
