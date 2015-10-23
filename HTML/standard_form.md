@@ -1,5 +1,5 @@
-<strong>The Standard Form of HTML5!</strong>
-This is the most basic HTML document, and is necessary for each and every one:
+<strong>The Standard Form of HTML5!</strong>  
+This is the most basic HTML document, and is necessary for each and every one:  
 ```HTML
 <!DOCTYPE html>
 <html>
@@ -10,6 +10,6 @@ This is the most basic HTML document, and is necessary for each and every one:
 </html>
 ```
 
-You should commit this to memory, as every single time you create an HTML Document.
+You should commit this to memory, as every single time you create an HTML Document.  
 
-And remember to indent!
+And remember to indent!  
