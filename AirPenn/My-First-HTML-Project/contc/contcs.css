@@ -1,0 +1,96 @@
+/* File=contc.css */
+
+/* CSS stylesheet "2" for homberto.weebly.com */
+
+/* For use with Crash or Not to Crash */
+
+
+body
+{
+background-image:url('http://jalantikus.com/blog/wp-content/uploads/2012/06/google_chrome_snap.jpg');background-color:#D400DF;
+}
+
+.header
+{
+background-color:rgba(45, 59, 216, 1);border:3px solid;border-color:#2E6CE9;border-radius:10px;margin-left:40px;margin-top:20px;margin-right:40px;height:100px;height:100px;columns:5;-webkit-columns:5;-moz-columns:5;
+}
+
+.logo
+{
+margin-left:10px;margin-top:10px;margin-bottom:10px;background-color:#2D3BD8;width:150px;border:3px solid;border-radius:10px;border-color:#874FF8;
+}
+
+.header_nav_text
+{
+font-size:20px;text-align:center;
+}
+
+.header_nav_hr
+{
+border:1px solid;border-color:rgba(38, 38, 38, .5);
+}
+
+.logo_h1
+{
+color:#874FF7;font-weight:900;font-size:28px;font-family:georgia;
+}
+
+.header_nav
+{
+background-color:rgba(38, 38, 38, .5);margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;height:200px;
+}
+
+.left_div_inner_nav
+{
+height:495px;width:150px;float:left;background-color:rgba(159, 0, 0, .9);border:4px solid;border-color:#009F00;border-radius:10px;margin-left:40px;
+}
+
+.left_hr_inner_nav
+{
+width:20%;border:1px solid;border-color:#3FF645;
+}
+
+.left_h3_inner_nav
+{
+color:#3FF645;font-size:24px;font-weight:800;text-align:center;font-family:georgia;
+}
+
+.left_p_inner_nav
+{
+color:#009F00;font-size:18px;font-weight:700;text-align:center;font-family:helvetica;
+}
+
+.p_footer
+{
+font-family:verdana;color:yellow;font-weight:900;font-size:14px;text-align:center;background-color:rgba(0, 0, 0, .8);
+}
+
+a:link
+{
+color:#3FF645;
+}
+
+a:hover
+{
+color:#3FF645;
+}
+
+a:active
+{
+color:#3FF645;
+}
+
+a:-webkit-any-link
+{
+color:#3FF645;text-decoration:none;
+}
+
+.game
+{
+background-color:rgba(0, 0, 0, .8);border:4px solid;border-color:grey;border-radius:10px;margin-left:202px;margin-right:40px;height:477px;width:auto;float:center;padding:10px;
+}
+
+.p_game
+{
+color:#BFBFBF;font-family:georgia;font-size:20px;font-weight:300px;
+}

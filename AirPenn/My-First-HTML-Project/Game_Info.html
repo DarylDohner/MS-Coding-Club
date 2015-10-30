@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body
+{
+background-color:black;
+}
+a:-webkit-any-link
+{
+color:yellow;
+}
+</style>
+</head>
+<body>
+<div style="height:800px;width:800px;padding:40px;z-index=-1;position:absolute;">
+<table>
+<tbody>
+<tr>
+<td>
+<div style="width:400px;height:400px;background-color:#AAAAFF;border:3px solid;border-color:red;border-radius:200px;z-index=-1;float:left;">
+<svg height="400" width"400" style="z-index:-1">
+<g style="z-index:-1;"  name="cross_lines">
+
+<line x1="200" y1="0" x2="200" y2="400" style="stroke:rgb(0, 0, 100);stroke-width=5"/>
+
+<line x1="0" y1="200" x2="400" y2="200" style="stroke:rgb(0, 0, 100);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_v_left_center">
+
+<line x1="200" y1="0" x2="150" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="100" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="200" x2="150" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="300" x2="200" y2="400" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_v_right_center">
+
+<line x1="200" y1="200" x2="250" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="250" y1="300" x2="200" y2="400" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="0" x2="250" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="250" y1="100" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_h_left_center">
+
+<line x1="0" y1="200" x2="100" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="250" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="0" y1="200" x2="100" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="150" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_h_right_center">
+
+<line x1="200" y1="200" x2="300" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="150" x2="400" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="200" x2="300" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="250" x2="400" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="connector_lines">
+
+<line x1="250" y1="100" x2="300" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="250" x2="250" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="300" x2="100" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="150" x2="150" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+</svg>
+</div>
+</td>
+<td>
+<div style="width:400px;height:400px;background-color:#AAAAFF;border:3px solid;border-color:red;border-radius:200px;z-index=-1;float:left;">
+<svg height="400" width"400" style="z-index:-1">
+<g style="z-index:-1;"  name="cross_lines">
+
+<line x1="200" y1="0" x2="200" y2="400" style="stroke:rgb(0, 0, 100);stroke-width=5"/>
+
+<line x1="0" y1="200" x2="400" y2="200" style="stroke:rgb(0, 0, 100);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_v_left_center">
+
+<line x1="200" y1="0" x2="150" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="100" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="200" x2="150" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="300" x2="200" y2="400" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_v_right_center">
+
+<line x1="200" y1="200" x2="250" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="250" y1="300" x2="200" y2="400" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="0" x2="250" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="250" y1="100" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_h_left_center">
+
+<line x1="0" y1="200" x2="100" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="250" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="0" y1="200" x2="100" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="150" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_h_right_center">
+
+<line x1="200" y1="200" x2="300" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="150" x2="400" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="200" x2="300" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="250" x2="400" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="connector_lines">
+
+<line x1="250" y1="100" x2="300" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="250" x2="250" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="300" x2="100" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="150" x2="150" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+</svg>
+</div>
+</td>
+<td>
+<div style="width:400px;height:400px;background-color:#AAAAFF;border:3px solid;border-color:red;border-radius:200px;z-index=-1;float:left;">
+<svg height="400" width"400" style="z-index:-1">
+<g style="z-index:-1;"  name="cross_lines">
+
+<line x1="200" y1="0" x2="200" y2="400" style="stroke:rgb(0, 0, 100);stroke-width=5"/>
+
+<line x1="0" y1="200" x2="400" y2="200" style="stroke:rgb(0, 0, 100);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_v_left_center">
+
+<line x1="200" y1="0" x2="150" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="100" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="200" x2="150" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="300" x2="200" y2="400" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_v_right_center">
+
+<line x1="200" y1="200" x2="250" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="250" y1="300" x2="200" y2="400" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="0" x2="250" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="250" y1="100" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_h_left_center">
+
+<line x1="0" y1="200" x2="100" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="250" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="0" y1="200" x2="100" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="150" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_h_right_center">
+
+<line x1="200" y1="200" x2="300" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="150" x2="400" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="200" x2="300" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="250" x2="400" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="connector_lines">
+
+<line x1="250" y1="100" x2="300" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="250" x2="250" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="300" x2="100" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="150" x2="150" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+</svg>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div style="width:400px;height:400px;background-color:#AAAAFF;border:3px solid;border-color:red;border-radius:200px;z-index=-1;float:left;">
+<svg height="400" width"400" style="z-index:-1">
+<g style="z-index:-1;"  name="cross_lines">
+
+<line x1="200" y1="0" x2="200" y2="400" style="stroke:rgb(0, 0, 100);stroke-width=5"/>
+
+<line x1="0" y1="200" x2="400" y2="200" style="stroke:rgb(0, 0, 100);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_v_left_center">
+
+<line x1="200" y1="0" x2="150" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="100" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="200" x2="150" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="300" x2="200" y2="400" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_v_right_center">
+
+<line x1="200" y1="200" x2="250" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="250" y1="300" x2="200" y2="400" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="0" x2="250" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="250" y1="100" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_h_left_center">
+
+<line x1="0" y1="200" x2="100" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="250" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="0" y1="200" x2="100" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="150" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_h_right_center">
+
+<line x1="200" y1="200" x2="300" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="150" x2="400" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="200" x2="300" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="250" x2="400" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="connector_lines">
+
+<line x1="250" y1="100" x2="300" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="250" x2="250" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="300" x2="100" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="150" x2="150" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+</svg>
+</div>
+</td>
+<td>
+<div style="width:400px;height:400px;background-color:#AAAAFF;border:3px solid;border-color:red;border-radius:200px;z-index=-1;float:left;">
+<svg height="400" width"400" style="z-index:-1">
+<g style="z-index:-1;"  name="cross_lines">
+
+<line x1="200" y1="0" x2="200" y2="400" style="stroke:rgb(0, 0, 100);stroke-width=5"/>
+
+<line x1="0" y1="200" x2="400" y2="200" style="stroke:rgb(0, 0, 100);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_v_left_center">
+
+<line x1="200" y1="0" x2="150" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="100" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="200" x2="150" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="300" x2="200" y2="400" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_v_right_center">
+
+<line x1="200" y1="200" x2="250" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="250" y1="300" x2="200" y2="400" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="0" x2="250" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="250" y1="100" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_h_left_center">
+
+<line x1="0" y1="200" x2="100" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="250" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="0" y1="200" x2="100" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="150" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_h_right_center">
+
+<line x1="200" y1="200" x2="300" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="150" x2="400" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="200" x2="300" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="250" x2="400" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="connector_lines">
+
+<line x1="250" y1="100" x2="300" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="250" x2="250" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="300" x2="100" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="150" x2="150" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+</svg>
+</div>
+</td>
+<td>
+<div style="width:400px;height:400px;background-color:#AAAAFF;border:3px solid;border-color:red;border-radius:200px;z-index=-1;float:left;">
+<svg height="400" width"400" style="z-index:-1">
+<g style="z-index:-1;"  name="cross_lines">
+
+<line x1="200" y1="0" x2="200" y2="400" style="stroke:rgb(0, 0, 100);stroke-width=5"/>
+
+<line x1="0" y1="200" x2="400" y2="200" style="stroke:rgb(0, 0, 100);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_v_left_center">
+
+<line x1="200" y1="0" x2="150" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="100" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="200" x2="150" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="300" x2="200" y2="400" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_v_right_center">
+
+<line x1="200" y1="200" x2="250" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="250" y1="300" x2="200" y2="400" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="0" x2="250" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="250" y1="100" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_h_left_center">
+
+<line x1="0" y1="200" x2="100" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="250" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="0" y1="200" x2="100" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="150" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_h_right_center">
+
+<line x1="200" y1="200" x2="300" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="150" x2="400" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="200" x2="300" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="250" x2="400" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="connector_lines">
+
+<line x1="250" y1="100" x2="300" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="250" x2="250" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="300" x2="100" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="150" x2="150" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+</svg>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div style="width:400px;height:400px;background-color:#AAAAFF;border:3px solid;border-color:red;border-radius:200px;z-index=-1;float:left;">
+<svg height="400" width"400" style="z-index:-1">
+<g style="z-index:-1;"  name="cross_lines">
+
+<line x1="200" y1="0" x2="200" y2="400" style="stroke:rgb(0, 0, 100);stroke-width=5"/>
+
+<line x1="0" y1="200" x2="400" y2="200" style="stroke:rgb(0, 0, 100);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_v_left_center">
+
+<line x1="200" y1="0" x2="150" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="100" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="200" x2="150" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="300" x2="200" y2="400" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_v_right_center">
+
+<line x1="200" y1="200" x2="250" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="250" y1="300" x2="200" y2="400" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="0" x2="250" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="250" y1="100" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_h_left_center">
+
+<line x1="0" y1="200" x2="100" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="250" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="0" y1="200" x2="100" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="150" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_h_right_center">
+
+<line x1="200" y1="200" x2="300" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="150" x2="400" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="200" x2="300" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="250" x2="400" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="connector_lines">
+
+<line x1="250" y1="100" x2="300" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="250" x2="250" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="300" x2="100" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="150" x2="150" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+</svg>
+</div>
+</td>
+<td>
+<div style="width:400px;height:400px;background-color:#AAAAFF;border:3px solid;border-color:red;border-radius:200px;z-index=-1;float:left;">
+<svg height="400" width"400" style="z-index:-1">
+<g style="z-index:-1;"  name="cross_lines">
+
+<line x1="200" y1="0" x2="200" y2="400" style="stroke:rgb(0, 0, 100);stroke-width=5"/>
+
+<line x1="0" y1="200" x2="400" y2="200" style="stroke:rgb(0, 0, 100);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_v_left_center">
+
+<line x1="200" y1="0" x2="150" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="100" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="200" x2="150" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="300" x2="200" y2="400" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_v_right_center">
+
+<line x1="200" y1="200" x2="250" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="250" y1="300" x2="200" y2="400" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="0" x2="250" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="250" y1="100" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_h_left_center">
+
+<line x1="0" y1="200" x2="100" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="250" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="0" y1="200" x2="100" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="150" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_h_right_center">
+
+<line x1="200" y1="200" x2="300" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="150" x2="400" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="200" x2="300" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="250" x2="400" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="connector_lines">
+
+<line x1="250" y1="100" x2="300" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="250" x2="250" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="300" x2="100" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="150" x2="150" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+</svg>
+</div>
+</td>
+<td>
+<div style="width:400px;height:400px;background-color:#AAAAFF;border:3px solid;border-color:red;border-radius:200px;z-index=-1;float:left;">
+<svg height="400" width"400" style="z-index:-1">
+<g style="z-index:-1;"  name="cross_lines">
+
+<line x1="200" y1="0" x2="200" y2="400" style="stroke:rgb(0, 0, 100);stroke-width=5"/>
+
+<line x1="0" y1="200" x2="400" y2="200" style="stroke:rgb(0, 0, 100);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_v_left_center">
+
+<line x1="200" y1="0" x2="150" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="100" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="200" x2="150" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="300" x2="200" y2="400" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_v_right_center">
+
+<line x1="200" y1="200" x2="250" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="250" y1="300" x2="200" y2="400" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="0" x2="250" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="250" y1="100" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_h_left_center">
+
+<line x1="0" y1="200" x2="100" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="250" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="0" y1="200" x2="100" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="150" x2="200" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="lines_h_right_center">
+
+<line x1="200" y1="200" x2="300" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="150" x2="400" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="200" y1="200" x2="300" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="250" x2="400" y2="200" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+
+<g style="z-index:-1;"  name="connector_lines">
+
+<line x1="250" y1="100" x2="300" y2="150" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="300" y1="250" x2="250" y2="300" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="150" y1="300" x2="100" y2="250" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+<line x1="100" y1="150" x2="150" y2="100" style="stroke:rgb(0, 100, 200);stroke-width=5"/>
+
+</g>
+</svg>
+</div>
+</td>
+</tr>
+</td>
+</tbody>
+</table>
+</div>
+<h1 style="color:green;font-family:verdana;font-size:36px;font-weight:900;text-align:center;margin-bottom:20px;margin-top:40px;">Game Instructions:</h1>
+<br>
+<br>
+<div name="links" style="padding:70px;">
+<a href="homberto.weebly.com" style="z-index:1;position:absolute;margin-top:29px;margin-left:59px;float:left;"><h2>Crash or Not to Crash</h2></a>
+<a href="homberto.weebly.com" style="z-index:1;position:absolute;margin-top:29px;margin-left:502px;float:left;"><h2>War of All Wars</h2></a>
+<a href="homberto.weebly.com" style="z-index:1;position:absolute;margin-top:29px;margin-left:970px;float:left;"><h2>Joker</h2></a>
+</div>
+
+<p style="color:white;font-weight:bold;z-index:-1;position:absolute;float:bottom;margin-top:1050px;">NOTE:  <u>War of All Wars</u> and <u>Joker</u> are currently being developed.  <u>Crash or Not to Crash</u> is being readied for publication.
+</body>
+</html> 

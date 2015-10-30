@@ -1,0 +1,188 @@
+﻿/* File=Homberto1.css */
+
+/* CSS stylesheet "1" for homberto.weebly.com */
+
+body
+{
+background-image:url('http://autoimagesize.com/wp-content/uploads/2014/02/black-texture-background-background-wallpapers-abstract-picture-cool-black-background.jpg');background-color:#D400DF;
+}
+
+.h1_normal
+{
+font-family:georgia;color:#3716FF;font-weight:900;text-align:center;font-size:36px;
+}
+
+.h2_normal
+{
+font-family:georgia;color:#3716FF;font-weight:800;text-align:center;font-size:30px;
+}
+
+.h3_normal
+{
+font-family:georgia;color:#3716FF;font-weight:800;text-align:center;font-size:26px;
+}
+
+.p_normal
+{
+font-family:verdana;color:#3716FF;font-weight:600;font-size:20px;
+}
+
+.p_centered
+{
+font-family:verdana;color:#3716FF;font-weight:700;font-size:20px;text-align:center;
+}
+
+.hr_normal
+{
+border-color:yellow;color:yellow;height:1px;width:80%;background-color:yellow;
+}
+
+.header
+{
+background-color:rgba(45, 59, 216, 0.9);border:3px solid;border-color:#2D3BD8;border-radius:10px;margin-left:40px;margin-top:20px;margin-right:40px;height:100px;height:100px;columns:5;-webkit-columns:5;-moz-columns:5;
+}
+
+.logo
+{
+margin-left:10px;margin-top:10px;margin-bottom:10px;background-color:#2D3BD8;width:150px;border:3px solid;border-radius:10px;border-color:#874FF7;
+}
+
+.logo_h1
+{
+color:#874FF7;font-weight:900;font-size:28px;font-family:georgia;
+}
+
+a:link
+{
+color:#3FF645;
+}
+
+a:hover
+{
+color:#3FF645;
+}
+
+a:active
+{
+color:#3FF645;
+}
+
+a:-webkit-any-link
+{
+color:#3FF645;text-decoration:none;
+}
+
+.header_nav
+{
+background-color:rgba(38, 38, 38, .5);margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;height:200px;
+}
+
+.header_nav_text
+{
+font-size:20px;text-align:center;
+}
+
+.header_nav_hr
+{
+border:1px solid;border-color:rgba(38, 38, 38, .5);
+}
+
+.body
+{
+background-color:rgba(63, 246, 69, .7);border:3px solid;border-color:#3FF645;border-radius:10px;margin-left:202px;margin-right:40px;height:477px;width:auto;float:center;padding:10px;
+}
+
+.body_games
+{
+background-color:rgba(63, 246, 69, .7);border:3px solid;border-color:#3FF645;border-radius:10px;margin-left:202px;margin-right:40px;height:550px;width:auto;float:center;padding:10px;
+}
+
+.body_main
+{
+background-color:rgba(63, 246, 69, .6);border:3px solid;border-color:#3FF645;border-radius:10px;margin-left:40px;margin-right:40px;height:447px;width:auto;
+}
+
+.left_div_inner_nav
+{
+height:495px;width:150px;float:left;background-color:rgba(159, 0, 0, .5);border:4px solid;border-color:#009F00;border-radius:10px;margin-left:40px;
+}
+
+.left_div_inner_nav_games
+{
+height:570px;width:150px;float:left;background-color:rgba(159, 0, 0, .5);border:4px solid;border-color:#009F00;border-radius:10px;margin-left:40px;
+}
+
+.left_hr_inner_nav
+{
+width:20%;border:1px solid;border-color:#3FF645;
+}
+
+.left_h3_inner_nav
+{
+color:#3FF645;font-size:24px;font-weight:800;text-align:center;font-family:georgia;
+}
+
+.left_p_inner_nav
+{
+color:#009F00;font-size:18px;font-weight:700;text-align:center;font-family:helvetica;
+}
+
+.p_footer
+{
+font-family:verdana;color:yellow;font-weight:900;font-size:14px;text-align:center;background-color:rgba(0, 0, 0, .8);
+}
+
+.home_news_hr
+{
+border:1px solid;border-color:#3716FF;width:30%;
+}
+
+.body_hr
+{
+border:1px solid;border-color:#3716FF;width:80%;
+}
+
+.p_news_centered
+{
+font-family:georgia;color:#3716FF;font-weight:700;font-size:20px;text-align:center;
+}
+
+.p_small
+{
+font-family:verdana;color:#3716FF;font-weight:100;font-size:10px;
+}
+
+.p_small_centered
+{
+font-family:verdana;color:#3716FF;font-weight:100;font-size:14px;text-align:center;
+}
+
+table.ircs,td.ircs
+{
+border: 3px solid;border-color:#77FFB9;background-color:rgba(63, 246, 69, .3);
+}
+
+th.ircs
+{
+border: 3px solid;border-color:#25DA7A;background-color:#25DA7A;
+}
+
+.body_ircs
+{
+background-color:rgba(63, 246, 69, .7);border:3px solid;border-color:#3FF645;border-radius:10px;margin-left:202px;margin-right:40px;height:975px;width:auto;float:center;padding:10px;
+}
+
+.left_div_inner_nav_ircs
+{
+height:993px;width:150px;float:left;background-color:rgba(159, 0, 0, .5);border:4px solid;border-color:#009F00;border-radius:10px;margin-left:40px;
+}
+
+.img_centered
+{
+margin-left:auto;margin-right:auto;display:block;
+}
+
+.h4_left
+{
+font-family:georgia;color:#3716FF;font-weight:800;text-align:center;font-size:23px;
+}
