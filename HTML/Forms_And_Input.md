@@ -57,10 +57,39 @@ So, let's add the form tag to our HTML document.  We will make the method GET so
 </html>
 ```
 
-So, there's our form.  But it needs input.  For this, we use the input tag.  (Exceptions include <button> and <textarea>)
-<input> has a few really important attributes:
-name=" " (the name of the input)
-value=" " (the value of the input i.e. what data will be sent to the server)
-placeholder=" " (the gray text that tells you what the field is.  Example below.)
-<input type="text" placeholder="Click this box and type, and this text will dissappear!" />
-p
+So, there's our form.  But it needs input.  For this, we use the input tag.  (Exceptions include <button> and <textarea>)  Also, if you don't recognize some of the inputs, they will all show up in your test document!  
+<input> has a few really important attributes:  
+name=" " (the name of the input)  
+value=" " (the value of the input i.e. what data will be sent to the server)  
+placeholder=" " (the gray text that tells you what the field is)  
+type=" " (the type of input.  Either: text, email, number (not used often), password, button, checkbox, radio, or submit)
+
+So, let's add one of each input to our form:
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forms and Input Test Page</title>
+  </head>
+  <body>
+    <form method="GET" action="http://foo.com">
+      <input type="text" name="txt" placeholder="Input Type=Text" />
+      <br>
+      <input type="email" name="email" placeholder="Input Type=Email" />
+      <br>
+      <input type="number" name="num" placeholder="Input Type=Number" />
+      <br>
+      <input type="password" name="pw" placeholder="Input Type=Password" />
+      <br>
+      <input type="button" name="btn" placeholder="Input Type=Button" />
+      <br>
+      <input type="checkbox" name="chk" placeholder="Input Type=Checkbox" />
+      <br>
+      <input type="radio" name="radio" placeholder="Input Type=Radio" />
+      <br>
+      <input type="submit" value="Input Type=Submit" />
+    </form>
+  </body>
+</html>
+```
+
