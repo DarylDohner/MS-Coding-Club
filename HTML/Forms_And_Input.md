@@ -57,8 +57,8 @@ So, let's add the form tag to our HTML document.  We will make the method GET so
 </html>
 ```
 
-So, there's our form.  But it needs input.  For this, we use the input tag.  (Exceptions include <button> and <textarea>)  Also, if you don't recognize some of the inputs, they will all show up in your test document!  
-<input> has a few really important attributes:  
+So, there's our form.  But it needs input.  For this, we use the input tag.  (Exceptions include the button and textarea tags)  Also, if you don't recognize some of the inputs, they will all show up in your test document!  
+the input tag has a few really important attributes:  
 name=" " (the name of the input)  
 value=" " (the value of the input i.e. what data will be sent to the server)  
 placeholder=" " (the gray text that tells you what the field is)  
