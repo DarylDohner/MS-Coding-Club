@@ -2,7 +2,7 @@ First, let's quickly go over one really basic thing about the internet.  When yo
 
 There are two or three principle ways that a web page can allow a user to talk with the server.  Two of them use JavaScript, so if you are still learning HTML, then you don't have to consider them yet.
 
-Forms are HTML's way of taking a user's input and sending it to the server.  
+Forms are HTML's way of taking a user's input and sending it to the server.  Note: it will either reload or redirect the webpage, depending on the action attribute (see below).
 
 Now, the easiest way to show this is by you following along.  So we will do make a test page.
 
@@ -93,3 +93,29 @@ So, let's add one of each input to our form:
 </html>
 ```
 
+Each of these input types do different things:
+-Text allows any kind of text to be entered
+-Email will actually check to make sure an email address was entered
+-Number allows only numbers, surprisingly
+-Password has those bullets that replace the text
+-Button...you know what a button does, right?
+-Checkbox allows the user to select multiple items (if there were 3 checkboxes in the form, the user could choose 0-3)
+-Radio allows the user to select only one of the radio buttons provided (if there were 3 radio buttons in the form, the user could choose only one)
+-Submit is required for every HTML form (unless you use JavaScript).  It is a button, but when clicked, tells the form to send the data.
+
+Note: use the value attribute instead of the placeholder attribute for button and submit!
+
+What data is actually being sent to the server?  The name and value of each input.  You will see.
+
+```
+Windows Instructions:
+1) Press CTRL + S
+2) Change "Text Document" to "All Files"
+3) Save to your desktop as "input_test.html"
+
+Mac Instructions:
+1) File -> Save
+2) Make sure it is not set to "Rich Text Document" or anything similar.
+3) Save to your desktop as "input_test.html"
+```
+Now double click the icon on your desktop, and the file should open in a web browser.
