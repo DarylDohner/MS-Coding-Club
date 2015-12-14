@@ -1,0 +1,48 @@
+Your task: make a home page for MSCC Software, a popular software company with an international reputation.
+
+The company has provided the following specifications for their webpage:
+
+They want their webpage to be:
+    -exactly 1000px tall
+    -with a background of #DFDFDF with 80% opacity
+    -use only the font Verdana 
+They want margins of:
+    -15 pixels for the top and bottom
+    -3% of the total width for the sides  
+They want a header that is:
+    -12% as tall as the webpage
+    -has a background color of RGB 127,0,0
+    -has a solid red border with a 10 pixel radius
+    -with centered text
+        -Top line 50px tall text with their company name
+        -Bottom line 20px tall with their website, but they don't want a link
+They want a 5 pixel space between the header and the next two boxes.
+They want a sidebar that:
+    -is 75% as tall as the webpage
+    -has a background color of RGB 127,0,0
+    -has a solid red border with a 10 pixel radius
+    -that is 15% as wide as the webpage
+    -that has three links inside that are not underlined
+        -the first, a link to google, have the text 18px tall, and color it with #EC00BC.
+        -the second, a link to http://example.com/, have the text 18px tall, and color it with #EC00BC.  Give it an overline.
+        -the third, a link to http://www.usadebtclock.org/, have the text 20px tall, and color it with RGB 7, 239, 20, and have it open in a new tab.
+They want a 3 pixel space between the sidebar and content box.
+They want a content box that:
+    -is 75% as tall as the webpage
+    -has a background color of RGBA 0,119,31,0.9
+    -has a solid RGB 127,0,0 border with a 10 pixel radius
+    -that is 77% the width of the webpage'
+    -that was the centered text "Happy Holidays"
+    -followed by a centered image of a Chrismas tree, in black and white, that is 500px tall
+    -followed by the centered text "From MSCC!"
+    -with the text color as RGB 127,0,0
+    -with the text size as 72px
+
+
+Make sure to give yourself credit for the website by writing Created By PharellPharell in 12px tall RGB 127,0,0 Arial text.
+
+
+This will undoubtedly take you a while.  Should you have any questions, first use your internet research skills, then if
+the problem still exists, email or text me.  Good luck and have fun!
+
+Also, if you can do this, you're ready for JS.
