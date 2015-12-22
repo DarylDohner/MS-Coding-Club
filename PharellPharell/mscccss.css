@@ -1,4 +1,4 @@
-/* I have a small problem with the text decorations with the links, it would be greatly appreciated if you could help*/
+/*Problems fixed now. No need to worry. Enjoy the rest of your winter break*/
 body{
 	height: 970px;
 	background-color: rgba:(223,223,223,80%);
@@ -42,7 +42,7 @@ body{
     float: left;
 }
 
-#google{
+#google > a{
     font-size: 25px;
     color: #EC00BC;
     text-decoration: none;
@@ -50,7 +50,7 @@ body{
     padding-bottom: 10px;
 }
 
-#example{
+#example > a{
     font-size: 25px;
     color: #EC00BC;
     text-decoration: overline;
@@ -58,7 +58,7 @@ body{
     padding-bottom: 10px;
 }
 
-#debt{
+#debt > a{
     font-size: 25px;
     color: rgb(7,239,20);
     text-decoration: none;
