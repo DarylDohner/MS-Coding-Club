@@ -36,7 +36,7 @@ And, this is very important, you will need to make sure that the setTimeout is d
 window.onload=function()
               {
                 setTimeout();
-              }
+              };
 ```
 You will need to be able to explain to me how that works at the next CC session.
 
