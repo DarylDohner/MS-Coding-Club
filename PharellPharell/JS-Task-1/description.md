@@ -29,6 +29,15 @@ for(var i=0;i<text.length;i++)
   newTextArray[i]=text[text.length-i];
 {
 ```
+
+And, this is very important, you will need to make sure that the setTimeout is done after the page loads.  Basically, do this:
+```js
+/*other code*/
+window.onload=function()
+              {
+                setTimeout();
+              }
+```
 You will need to be able to explain to me how that works at the next CC session.
 
 Good Luck!
