@@ -26,7 +26,7 @@ To invert the text, you will need to do a for loop like this:
 ```js
 for(var i=0;i<text.length;i++)
 {
-  newTextArray[i]=text[text.length-i];
+  newTextArray[i]=text[text.length-i-1];
 {
 ```
 
