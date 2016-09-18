@@ -94,14 +94,14 @@ So, let's add one of each input to our form:
 ```
 
 Each of these input types do different things:
--Text allows any kind of text to be entered 
--Email will actually check to make sure an email address was entered 
--Number allows only numbers, surprisingly 
--Password has those bullets that replace the text 
--Button...you know what a button does, right? 
--Checkbox allows the user to select multiple items (if there were 3 checkboxes in the form, the user could choose 0-3) 
--Radio allows the user to select only one of the radio buttons provided (if there were 3 radio buttons in the form, the user could choose only one) 
--Submit is required for every HTML form (unless you use JavaScript).  It is a button, but when clicked, tells the form to send the data. 
+-Text allows any kind of text to be entered  
+-Email will actually check to make sure an email address was entered  
+-Number allows only numbers, surprisingly  
+-Password has those bullets that replace the text  
+-Button...you know what a button does, right?  
+-Checkbox allows the user to select multiple items (if there were 3 checkboxes in the form, the user could choose 0-3)  
+-Radio allows the user to select only one of the radio buttons provided (if there were 3 radio buttons in the form, the user could choose only one)  
+-Submit is required for every HTML form (unless you use JavaScript).  It is a button, but when clicked, tells the form to send the data.  
 
 Note: use the value attribute instead of the placeholder attribute for button and submit!
 
